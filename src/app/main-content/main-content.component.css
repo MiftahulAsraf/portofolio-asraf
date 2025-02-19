@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .box {
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin: 16px;
+    text-align: center;
+    width: calc(50% - 64px); /* Adjust width to fit two boxes in a row with margins */
+    box-sizing: border-box;
+  }
+  
+  .box img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .tags {
+    margin-top: 8px;
+  }
+  
+  .tag {
+    display: inline-block;
+    background-color: #eee;
+    padding: 4px 8px;
+    margin: 4px;
+    border-radius: 4px;
+  }
