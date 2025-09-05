@@ -1,6 +1,6 @@
 
 export default {
-  basePath: '/porto-asraf',
+  basePath: '/portofolio-asraf',
   supportedLocales: {
   "en-US": ""
 },
