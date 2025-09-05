@@ -17,3 +17,11 @@
   a{
     padding: auto;
   }
+
+.text-description{
+    font-family: "Georgia", "Times New Roman", Times, serif;
+    font-size: 1.125rem;
+    line-height: 1.7;
+    color: var(--gray-800);
+    letter-spacing: 0.01em;
+}

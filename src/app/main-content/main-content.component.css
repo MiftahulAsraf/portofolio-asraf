@@ -9,7 +9,7 @@
     padding: 16px;
     margin: 16px;
     text-align: center;
-    width: calc(50% - 64px); /* Adjust width to fit two boxes in a row with margins */
+    width: calc(80% - 64px); /* Adjust width to fit two boxes in a row with margins */
     box-sizing: border-box;
   }
   
@@ -28,4 +28,8 @@
     padding: 4px 8px;
     margin: 4px;
     border-radius: 4px;
+  }
+
+  img{
+    padding: 8px;
   }
