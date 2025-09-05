@@ -1,6 +1,6 @@
 
 export default {
-  basePath: '/',
+  basePath: '/porto-asraf',
   supportedLocales: {
   "en-US": ""
 },

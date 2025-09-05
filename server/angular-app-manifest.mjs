@@ -2,19 +2,19 @@
 export default {
   bootstrap: () => import('./main.server.mjs').then(m => m.default),
   inlineCriticalCss: true,
-  baseHref: '/',
+  baseHref: '/porto-asraf/',
   locale: undefined,
   routes: [
   {
     "renderMode": 2,
-    "route": "/"
+    "route": "/porto-asraf"
   }
 ],
   entryPointToBrowserMapping: undefined,
   assets: {
-    'index.csr.html': {size: 5002, hash: 'd65827b598367aaa5244d3170853e5ffc4177417c8452c400cd01187116a6793', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
-    'index.server.html': {size: 1118, hash: 'e00070b9980fecceaab858efec84874017b3f15b64ac0deb8de8ea8e3ae03cd2', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
-    'index.html': {size: 34475, hash: '7d59197479d2d7ac3ef3378b3a2c8ab9b211f75db9b7175f4513dd31d0566cd6', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)},
+    'index.csr.html': {size: 5014, hash: '1cd551c3b65226e5570a21591f216d5c2c808d6474e38d7489ecac2bad88a31e', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
+    'index.server.html': {size: 1130, hash: '8d3ed6125c07184a4c0b6979010beefa6c6167677b89e4fea2950cf9eace8cb0', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
+    'index.html': {size: 34487, hash: 'b4a0415c182bf05f4aa8f49ab7e6b6b718d6e9c5ffcc8f2375f42a218e48bcfd', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)},
     'styles-NNY77U4R.css': {size: 231628, hash: 'OlqGS/IEcKQ', text: () => import('./assets-chunks/styles-NNY77U4R_css.mjs').then(m => m.default)}
   },
 };
