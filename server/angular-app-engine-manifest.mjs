@@ -1,6 +1,6 @@
 
 export default {
-  basePath: 'C:/Program Files/Git/portofolio-asraf',
+  basePath: '/portofolio-asraf',
   supportedLocales: {
   "en-US": ""
 },
