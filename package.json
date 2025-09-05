@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:porto-asraf": "node dist/porto-asraf/server/server.mjs",
-    "deploy": "gh-pages -d build"
+    "deploy": "ng build"
   },
   "private": true,
   "dependencies": {
