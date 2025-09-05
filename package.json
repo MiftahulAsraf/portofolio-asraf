@@ -9,7 +9,8 @@
     "test": "ng test",
     "serve:ssr:porto-asraf": "node dist/porto-asraf/server/server.mjs",
     "build": "ng build --configuration production",
-    "deploy": "ng build --configuration production --base-href /portofolio-asraf/ && gh-pages -d dist/porto-asraf"
+    "deploy": "ng build --configuration production --base-href /portofolio-asraf/ && node -e \"const fs=require('fs'),p='dist/porto-asraf/index.html',q='dist/porto-asraf/404.html';fs.copyFileSync(p,q)\" && gh-pages -d dist/porto-asraf"
+
   },
   "private": true,
   "dependencies": {
